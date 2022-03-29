@@ -26,9 +26,11 @@
         </style>
 	</head>
     <body>
-        <div id="menu" class="ms-1 text-center ">        
+        <div id="menu" class="ms-1 text-center ">  
+		
             <div class="border border-ligth h-100 rounded">
                 <a class="text-white text-decoration-none " href='./index.php?c=Menu'>
+			
                     <div class="border-bottom bg-dark fw-bold  text-white py-5 text-center">
                         Inicio
                     </div>
