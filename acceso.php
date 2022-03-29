@@ -1,5 +1,5 @@
 <?php
-	//require("libreria.php");
+	
   session_start();
   include("conexion.php");
   $cnx=conexion();
@@ -7,11 +7,11 @@
 	$clave =$_POST['txtclave'];
 
     $verifica=mysql_query("select * FROM administrativo WHERE User='$usuario' and Clave='$clave'",$cnx);
-    //$n recupera la cantidad de filas que tiene $verifica
+    
     $n=mysql_num_rows($verifica);
 	if($n>0)
 	   {
-	   	   //puedo acceder al sistema
+	   	
 			#echo '<script>alert("BIENVENIDO AL SISTEMA")</script> ';
 			
 			$datos=mysql_fetch_array($verifica);//recuperar los datos del usuario logueado
