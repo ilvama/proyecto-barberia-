@@ -1,6 +1,7 @@
 <?php
 	
   session_start();
+
   include("conexion.php");
   $cnx=conexion();
 	$usuario =$_POST['txtusu'];
@@ -9,6 +10,7 @@
     $verifica=mysql_query("select * FROM administrativo WHERE User='$usuario' and Clave='$clave'",$cnx);
     
     $n=mysql_num_rows($verifica);
+
 	if($n>0)
 	   {
 	   	
