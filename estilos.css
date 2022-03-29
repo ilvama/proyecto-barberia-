@@ -1,0 +1,11 @@
+/ * Siempre establezca la altura del mapa explícitamente para definir el tamaño del div
+ * Elemento que contiene el mapa. * /
+#mapa {
+  altura: 100%;
+}
+/ * Opcional: Hace que la página de muestra llene la ventana. * /
+html, cuerpo {
+  altura: 100%;
+  margen: 0;
+  relleno: 0;
+}

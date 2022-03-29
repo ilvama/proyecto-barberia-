@@ -1,0 +1,176 @@
+
+<!DOCTYPE HTML>
+<html lang="en">
+
+<!-- Mirrored from www.templatespoint.net/demo/Classy-User-UI-Kit-a-Responsive-Widget-Template/ by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 12 Feb 2019 15:40:37 GMT -->
+<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+<head>
+<title>LOGIN</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="Classy User Ui Kit Responsive Widget,Login form widgets, Sign up Web forms , Login signup Responsive web form,Flat Pricing table,Flat Drop downs,Registration Forms,News letter Forms,Elements" />
+<script type="221c0b2397e9468b22d8e311-application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
+function hideURLbar(){ window.scrollTo(0,1); } </script>
+
+
+<link rel="stylesheet" href="login/css/style.css" type="text/css" media="all" /> 
+<link rel="stylesheet" href="login/css/monthly.css"> 
+<link rel="stylesheet" href="login/css/font-awesome.css"> 
+  
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700">
+ <meta charset="UTF-8">
+
+
+<link href="http://fonts.googleapis.com/css?family=Philosopher:400,400i,700,700i&amp;subset=cyrillic" rel="stylesheet">
+
+</head>
+
+<body  >
+<script src='../../ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.html' type="221c0b2397e9468b22d8e311-text/javascript"></script>
+<script src="../../m.servedby-buysellads.com/monetization.html" type="221c0b2397e9468b22d8e311-text/javascript"></script>
+<script type="221c0b2397e9468b22d8e311-text/javascript">
+(function(){
+	if(typeof _bsa !== 'undefined' && _bsa) {
+  		// format, zoneKey, segment:value, options
+  		_bsa.init('flexbar', 'CKYI627U', 'placement:w3layoutscom');
+  	}
+})();
+</script>
+<script type="221c0b2397e9468b22d8e311-text/javascript">
+(function(){
+if(typeof _bsa !== 'undefined' && _bsa) {
+	// format, zoneKey, segment:value, options
+	_bsa.init('fancybar', 'CKYDL2JN', 'placement:demo');
+}
+})();
+</script>
+<script type="221c0b2397e9468b22d8e311-text/javascript">
+(function(){
+	if(typeof _bsa !== 'undefined' && _bsa) {
+  		// format, zoneKey, segment:value, options
+  		_bsa.init('stickybox', 'CKYI653J', 'placement:w3layoutscom');
+  	}
+})();
+</script>
+<script type="221c0b2397e9468b22d8e311-text/javascript">
+	(function(v,d,o,ai){ai=d.createElement("script");ai.defer=true;ai.async=true;ai.src=v.location.protocol+o;d.head.appendChild(ai);})(window, document, "../../vdo.ai/core/w3layouts/vdo.ai.html");
+	</script>
+<script type="221c0b2397e9468b22d8e311-text/javascript">
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','../../www.google-analytics.com/analytics.html','ga');
+ga('create', 'UA-30027142-1', 'w3layouts.com');
+  ga('send', 'pageview');
+</script>
+<body>
+<html lang="en-US">
+
+
+
+<h1 class="agile-head">SISTEMA DE CONTROL DE RESERVA Y VENTA </h1>
+<H1 class="agile-head">" COUNTRY BARBER SHOP STYLES"</H1>
+<div class="agile-wi">
+
+<div id="login" class="signin-form">
+<form id="signin"  name='form-login' action="acceso.php" method="post">
+
+
+<h3>INICIAR SESSION</h3>
+
+<p>NOMBRE DE USUARIO</p>
+
+    <span class="fontawesome-user"></span>
+    <input type="text" id="user" name="txtusu" placeholder="Username" required="" />
+<p>PASSWORD</p>
+       
+        <span class="fontawesome-lock"></span>
+<input type="password" id="pass" name="txtclave" placeholder="Password" required="" />
+
+
+<input type="submit" value="Login"> 
+</form>
+</div>
+
+
+<div class="top-grids">
+<div class="profile-agile">
+<h2>BIENVENIDO</h2>
+<div class="profile-w3">
+<img src="login/images/bgp.jpeg" alt="">
+</div>
+<div class="w3layouts">
+<img src="login/images/logo.jpg" alt=" " />
+<!--<h3>Lisa Kristina</h3>
+<label class="line"></label>
+<p>Maecenas khnt loream. </p>-->
+</div>
+
+</div>
+</div>
+
+
+
+
+
+<div class="top-grids-3">
+<div class="w3l-calendar-left w3-agile-width">
+<h3>CALENDARIO</h3>
+<div class="calendar-heading">
+</div>
+<div class="monthly" id="mycalendar"></div>
+</div>
+</div>
+<div class="clear"></div>
+
+
+
+
+
+</div>
+
+<!--PARA LOS CALENDARIOS INICIO-->
+<script type="221c0b2397e9468b22d8e311-text/javascript" src="login/js/jquery-2.1.4.min.js"></script>
+
+<script type="221c0b2397e9468b22d8e311-text/javascript" src="login/js/monthly.js"></script>
+<script type="221c0b2397e9468b22d8e311-text/javascript">
+		$(window).load( function() {
+
+			$('#mycalendar').monthly({
+				mode: 'event',
+				
+			});
+
+			$('#mycalendar2').monthly({
+				mode: 'picker',
+				target: '#mytarget',
+				setWidth: '250px',
+				startHidden: true,
+				showTrigger: '#mytarget',
+				stylePast: true,
+				disablePast: true
+			});
+
+		switch(window.location.protocol) {
+		case 'http:':
+		case 'https:':
+		// running on a server, should be good.
+		break;
+		case 'file:':
+		alert('activar caledario ');
+		}
+
+		});
+	</script>
+
+
+<script src="login/rocket-loader.min.js" data-cf-settings="221c0b2397e9468b22d8e311-|49" defer=""></script>
+<!--PARA LOS CALENDARIOS FIN-->
+
+
+</body>
+
+
+
+</html>
