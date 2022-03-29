@@ -18,7 +18,8 @@ $cons_usuario=mysql_query("select * from tusuario where idusuario='$usuario'");
 $datosusr=mysql_fetch_array($cons_usuario);
 echo "<b>Usuario: </b>".$datosusr[2]."<br>";
 echo "<b>Tipo de Usuario: </b>".$datosusr[3]."<br>";
- ?>
+ ?>.
+	
 	
         <form name='frmclave' method="GET" action='pr_cambiarclave.php'>
 	Clave Anterior:
@@ -36,6 +37,7 @@ echo "<b>Tipo de Usuario: </b>".$datosusr[3]."<br>";
 }
 else
 {
+	
 echo "Usted debe loguearse";
 };
 ?>
