@@ -9,6 +9,7 @@ if (!empty($_SESSION['usuario']))
 <head>
 	<title>Cambio de Clave de Acceso ...</title>
 </head>
+	
 <body>
 <h1>Datos Usuario</h1>
 <?php 
