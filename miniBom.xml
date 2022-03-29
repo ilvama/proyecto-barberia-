@@ -2,17 +2,20 @@
 		<MajorUpgradeinfo upgradecode="{4A424B2D-6B63-194C-ABFA-3F621104166B}"/>
 		<MajorUpgradeinfo upgradecode="{4F228DF2-809D-6A42-B82C-456E5BF21BE9}"/>
 		<MajorUpgradeinfo upgradecode="{881BA280-224B-E446-A466-9AE9F431D654}"/>
+	f
 	</Product>
 	<Feature name="RoseAdaAddin" displayname="RoseAdaAddin_displayname_29" description="RoseAdaAddin_description_30" advertise="Disallow">
 	</Feature>
 	<Feature name="RoseCORBAAddin" displayname="RoseCORBAAddin_displayname_35" description="RoseCORBAAddin_description_36" advertise="Disallow">
 	</Feature>
-	<Feature name="RoseCPPAddin" displayname="RoseCPPAddin_displayname_39" description="RoseCPPAddin_description_40" advertise="Disallow">
+	<Feature name=
+		 "RoseCPPAddin" displayname="RoseCPPAddin_displayname_39" description="RoseCPPAddin_description_40" advertise="Disallow">
 	</Feature>
 	<Feature name="RoseCafeLinkAddin" displayname="RoseCafeLinkAddin_displayname_59" description="RoseCafeLinkAddin_description_60" advertise="Disallow" select="Allow">
 	</Feature>
 	<Feature name="RoseClearcaseAddin" displayname="RoseClearcaseAddin_displayname_69" description="RoseClearcaseAddin_description_70" advertise="Disallow">
 	</Feature>
+	
 	<Feature name="RoseDataModelerAddin" displayname="RoseDataModelerAddin_displayname_75" description="RoseDataModelerAddin_description_76" advertise="Disallow">
 	</Feature>
 	<Feature name="RoseDeployAddin" displayname="RoseDeployAddin_displayname_37" description="RoseDeployAddin_description_38" advertise="Disallow">
@@ -2095,6 +2098,7 @@
 		<StringEntry id="IDS_BROWSER_WARN_XDEWEBPUB" value="You are attempting to install on a system with an unsupported browser. See your Rational product's Release Notes for a complete list of supported browsers before using XDE Web Publisher."/>
 		<StringEntry id="IDS_OFFICE_WARN_SITECHECK" value="You are attempting to install on a system that has an version of Office that is not compatible with SiteCheck. See your Rational product's Release Notes for a complete list of supported versions."/>
 		<StringEntry id="IDS_WEBSPHERE_BLOCK_" value=""/>
+		
 		<StringEntry id="IDS_WEBSPHERE_WARN_WSWB20" value="You are attempting to install on an unsupported version of WebSphere Studio. It is recommended that you utilize a supported version.  Please refer to the Release Notes for the complete list of supported operating systems."/>
 		<StringEntry id="IDS_WEBSPHERE_WARN_WSSXD50" value="You are attempting to install on an unsupported version of WebSphere Studio. It is recommended that you utilize a supported version.  Please refer to the Release Notes for the complete list of supported operating systems."/>
 		<StringEntry id="wsbuWeb_displayname" value="Web Server Components"/>
